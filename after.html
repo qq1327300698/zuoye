@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="author" content="孙海威"/>
+    <style type="text/css">
+        .story::after{
+            content:'》';
+            color:red;
+        }
+        .story::before{
+            content:'《';
+            color:blue;
+        }
+        a::after{
+            content:attr(href);
+        }
+    </style>
+</head>
+<body>
+    <p class="story">平凡世界</p>
+    <a href="http://www.baidu.com">百度</a>
+</body>
+</html>
